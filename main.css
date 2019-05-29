@@ -1,10 +1,10 @@
-@font-face {
+﻿@font-face {
 	font-family: 'Raleway-Black';
 	src: url('/font/Raleway-Black.ttf');
 }
 
 body {
-	background-color: #313335;
+	background-color: white;
 	font-family: Raleway-Black,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
 }
 
@@ -50,7 +50,6 @@ header nav ul li {
 }
 
 footer {
-	background-color: #202223;
 	height: 10%;
 	min-height: 90px;
 }
@@ -64,12 +63,10 @@ footer {
 	flex: 4;
 	padding: 0 5;
 	margin: 0 2;
-	background-color: #3C3F41;
 }
 
 .main {
 	flex: 7;
 	padding: 0 5;
 	margin: 0 2;
-	background-color: #3C3F41;
 }
