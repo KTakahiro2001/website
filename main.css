@@ -14,11 +14,17 @@
 	height:100%;
 }
 
-#container {
-	display: flex;
-	position:absolute;
-	background-color: white;
+body {
 	font-family: "Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+}
+
+#container {
+	display: block;
+	min-width: 570px;
+	position:absolute;
+	width:70%;
+	margin-right: 15%;
+	margin-left : 15%;
 }
 
 ul {
@@ -28,7 +34,10 @@ ul {
 header {
 	display: flex;
 	height: 3.5em;
-	background-color: white;
+	border: solid 2px;
+	border-color: #99e9f2;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.8);
 }
 
 header h1 {
@@ -63,21 +72,27 @@ footer {
 	min-height: 90px;
 }
 
-.container {
+.content {
 	display: flex;
-	margin: 0 15%;
+	margin-top: 10px;
 }
 
-
-
 .left-menu {
-	flex: 4;
+	flex: 3;
 	padding: 0 5;
-	margin: 0 2;
+	margin-right: 5px;
+	border: solid 2px;
+	border-color: #99e9f2;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.5);
 }
 
 .main {
 	flex: 7;
 	padding: 0 5;
-	margin: 0 2;
+	margin-left: 5px;
+	border: solid 2px;
+	border-color: #99e9f2;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.8);
 }
