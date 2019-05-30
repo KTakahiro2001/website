@@ -80,11 +80,16 @@ header nav ul li {
 footer {
 	height: 10%;
 	min-height: 90px;
+	border: solid 2px;
+	border-color: #99e9f2;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.8);
 }
 
 .content {
 	display: flex;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .left-menu {
