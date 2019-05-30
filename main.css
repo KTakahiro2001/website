@@ -1,14 +1,24 @@
-﻿@font-face {
-	font-family: 'Raleway-Black';
-	src: url('/font/Raleway-Black.ttf');
+#canvas {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
-body {
+#canvas {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#container {
+	display: flex;
+	position:absolute;
 	background-color: white;
-	font-family: Raleway-Black,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
-}
-
-h1 {
+	font-family: "Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
 }
 
 ul {
@@ -22,7 +32,6 @@ header {
 }
 
 header h1 {
-	display: flex;
 	padding: 0 1em;
 	font-size: 1em;
 	font-weight: 800;
@@ -58,6 +67,8 @@ footer {
 	display: flex;
 	margin: 0 15%;
 }
+
+
 
 .left-menu {
 	flex: 4;
