@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function() {
     canvas.height = document.documentElement.clientHeight;
     var context = canvas.getContext('2d');
     var stars = new Array();
-    var starCount = 100;
+    var starCount = (document.documentElement.clientWidth + document.documentElement.clientHeight) / 16;
     for (var i = 0; i < starCount; i++) {
       stars.push(new Star(context, Math.random() * document.documentElement.clientWidth, Math.random() * document.documentElement.clientHeight, Math.random() - 0.5, Math.random() - 0.5));
     }
