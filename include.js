@@ -1,6 +1,6 @@
 function header() {
   var head = "";
-  head += '<header><h1>ktakaのホームページ</h1><nav class="links"><ul><li><a>Help</a></li><li><a>Miscellaneous</a></li><li><a>Conatct</a></li><li><a href="https://github.com/KTakahiro2001" target="_blank">Github</a></li></ul></nav></header>';
+  head += '<header><h1><a href="http://www.ktaka.tokyo/">ktakaのホームページ</a></h1><nav class="links"><ul><li><a>Help</a></li><li><a>Miscellaneous</a></li><li><a>Conatct</a></li><li><a href="https://github.com/KTakahiro2001" target="_blank">Github</a></li></ul></nav></header>';
   document.write(head);
 }
 
