@@ -1,0 +1,57 @@
+<!doctype html>
+<title>ktakaのホームページ</title>
+<head>
+  <meta http-equiv="content-type" charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-7068291023178719",
+      enable_page_level_ads: true
+    });
+  </script>
+  <script src="http://www.ktaka.tokyo/include.js"></script>
+  <link rel="stylesheet" href="http://www.ktaka.tokyo/main.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <section id="container">
+    <script>header();</script>
+    <div class="content">
+      <script>sidebar();</script>
+      <div class="main">
+        <h1>Java</h1>
+        <p>今回がJava講座１回目となります。よろしくお願いします。</p>
+        <p>この講座では今から始めてプログラミングを学ぶ人、及びJavaプログラミングを初めて学ぶ人を対象としています。
+        一通り受講することによって、基礎から簡単なソフトウェアを作れるようになるまでをカバーすることができると思います。
+        では、始めましょう。</p>
+        <h2>Javaの言語仕様<h2>
+        <p>言語仕様と言われると身構えてしまうかもしれませんが、ここではJavaの歴史・動作の仕組みを簡単に説明します。</p>
+        <p>Javaは1990年頃から開発され始めました。C++という言語を参考に作られており、オブジェクト指向をベースとした言語です。
+        C++の問題であった移植性の問題やメモリ管理の難しさを改善することを目標とされました。</p>
+        <p>すべてJavaはJVM(Java Virtual Machine)上で動きます。JVMは基本的にOSに依存しないため、どの環境でも動くと考えて差し支えないでしょう。
+        JVMはJavaバイトコードをもとに動作します。JavaバイトコードはJavaのコードをコンパイルすることで得られます。
+        つまり、JavaはＣ言語やC++とは異なり、直接マシン語にコンパイルされるわけではありません。よく、インタプリタ型とコンパイル型の中間であると表現されます。
+        Javaにはガベージコレクションが実現されています。これは、メモリ管理を自動で行うものであります。この機能により開発者はメモリを気にすることなく開発を行えます。</p>
+        <h2>開発環境の構築</h2>
+        <p>Javaで開発を行うためには、JDK(Java Development Kit)を必要とします。JDKはOracleの公式サイトからダウンロードできます。
+        JDKにはバージョンがあり、現行最新バージョンはJDK12ですが、広く普及していません。ほとんどJDK8で開発を行っています。そのため、この講座ではJDK8を利用することにします。
+        JDKのダウンロードページ(https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html )</p>
+        <p>JavaはWindowsであればメモ帳、Macであればテキストエディタなどで開発が行えますが、とても非効率であるためオススメできません。
+        Javaには優れたIDEがいくつかありますから、それぞれ紹介します。</p>
+        <h3>Eclipse</h3>
+        <p>おそらく一番人気のIDEです。多数のプラグインがあり、また大きなコミュニティもありますので開発に支障をきたすことは少ないでしょう。</p>
+        <h3>Intelli J IDEA</h3>
+        <p>JetBrain社が開発しているIDEです。リリースされてから間もないということもあり、コミュニティはEclipseと比べるとまだまだ小さいです。
+        しかしながら、強力な開発者サポートツールが実装されていて、流れるようにコードを記述できるのが利点です。
+        私はこちらのエディタをオススメします。</p>
+
+        <p>次回に続く。</p>
+
+        <h2>参考</h2>
+        <p>Wikipedia-Java, Javaの歴史 (https://ja.wikipedia.org/wiki/Java)</p>
+      </div>
+    </div>
+    <script>footer();</script>
+  </section>
+</body>
