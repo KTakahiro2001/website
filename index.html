@@ -3,33 +3,20 @@
 <head>
 	<meta http-equiv="content-type" charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<script src="include.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	<canvas id="canvas"></canvas>
 	<section id="container">
-		<header>
-			<h1>ktakaのホームページ</h1>
-			<nav class="links">
-				<ul>
-					<li><a>Help</a></li>
-					<li><a>Miscellaneous</a></li>
-					<li><a>Conatct</a></li>
-					<li><a href="https://github.com/KTakahiro2001" target="_blank">Github</a></li>
-				</ul>
-			</nav>
-		</header>
+		<script>header();</script>
 		<div class="content">
-			<div class="left-menu">
-				leftmenu
-			</div>
+			<script>sidebar();</script>
 			<div class="main">
 				<p>こちらはktakaの公式ホームページとなっています。メニューから各項目へジャンプできます。</p>
 			</div>
 		</div>
-		<footer>
-			<a href="about">About this page</a>
-		</footer>
+		<script>footer();</script>
 	</section>
 </body>
 <script src="anime.js"> </script>
