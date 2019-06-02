@@ -52,16 +52,16 @@
 		text-decoration: none;
 	}
 
-	.content {
+	#content {
 		margin-top: 80px;
 		background-color: rgba(255,255,255,0.8);
 	}
 
-	.main {
+	#main {
 		width: 100%;
 	}
 
-	.left-menu {
+	#left-menu {
 		display: none;
 	}
 
@@ -144,14 +144,14 @@
 		background-color: rgba(255,255,255,0.8);
 	}
 
-	.content {
+	#content {
 		display: flex;
 		margin: 10px 0;
 	}
 
-	.left-menu {
+	#left-menu {
 		flex: 3;
-		padding: 0 5;
+		padding: 8px;
 		margin-right: 5px;
 		border: solid 2px;
 		border-color: #99e9f2;
@@ -159,7 +159,7 @@
 		background-color: rgba(255,255,255,0.5);
 	}
 
-	.main {
+	#main {
 		flex: 7;
 		padding: 8px;
 		margin-left: 5px;
