@@ -5,7 +5,7 @@ function header() {
 }
 
 function sidebar() {
-  document.write('<div class="left-menu"><a href="programming">プログラミング手引き</a></div>');
+  document.write('<div class="left-menu"><a href="http://www.ktaka.tokyo/programming">プログラミング手引き</a></div>');
 }
 
 function footer() {
