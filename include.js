@@ -9,5 +9,5 @@ function sidebar() {
 }
 
 function footer() {
-    document.write('<footer><a href="about">About this page</a></footer>');
+    document.write('<footer><a href="http://www.ktaka.tokyo/about">About this page</a></footer>');
 }
