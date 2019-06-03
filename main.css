@@ -10,6 +10,10 @@
 	position: relative;
 }
 
+code {
+	white-space: pre-wrap;
+}
+
 @media screen and (max-width:580px) {
 
 	header {
