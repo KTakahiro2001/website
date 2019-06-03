@@ -24,11 +24,13 @@
         <p>はじめにプログラムが実行される場所をエントリポイントと言います。
           Javaにおいては、あるクラス内のpublicでstaticなmainメソッドがそれです。
           あるクラスというのは、どれでも良いのですが、慣習的にMainクラスを作ることがありますので、紹介します。</p>
-        <code>public class Main {
-          public static void main(String... args) {
-            System.out.println(“Hello, World”);
-          }
-        }</code>
+        <code class="java">
+public class Main {
+  public static void main(String... args) {
+    System.out.println(“Hello, World”);
+  }
+}
+      </code>
         <p>上のコードでは、プログラムが実行されると、コンソールにHello, Worldと表示されます。</p>
         <h2>コンパイルと実行</h2>
         <p>IntelliJ IDEA には、コンパイラが付属していますが、はじめにこれを使ってしまうと、動作の仕組みが明確でなくなりますから、Oracleが提供する、javacを利用しましょう。
