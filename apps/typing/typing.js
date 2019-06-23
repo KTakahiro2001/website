@@ -73,3 +73,16 @@ document.onkeydown = function (e){
         }
     }
 };
+
+class WordLine {
+  constructor(word) {
+        this.word = word;
+        this.wordRemained = word;
+        this.wordTyped = "";
+  }
+
+  type(charactor) {
+    this.wordtyped += charactor;
+    this.wordremained = this.wordRemained.substr(2);
+  }
+}
