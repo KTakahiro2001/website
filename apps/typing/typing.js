@@ -50,7 +50,6 @@ function stopTyping(){
 // 次の単語を表示
 function nextWord(){
     charIndex = 0;
-    var random = Math.floor( Math.random() * wordList.length );
     wordArea.textContent = wordTyping;
     typeArea.textContent = "";
     wordChars = wordTyping.split('');
