@@ -1,9 +1,5 @@
 // 単語
-var wordList = [
-    "Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India",
-    "Juliett", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", "Quebec", "Romeo",
-    "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "X-ray", "Yankee", "Zulu"
-];
+var wordTyping = "this.seq = checkNotNull(seq);";
 
 // 時間制限
 var timeLimit = 30;
@@ -55,19 +51,9 @@ function stopTyping(){
 function nextWord(){
     charIndex = 0;
     var random = Math.floor( Math.random() * wordList.length );
-    wordArea.textContent = wordList[random];
+    wordArea.textContent = wordTyping;
     typeArea.textContent = "";
-    wordChars = wordList[random].toUpperCase().split('');
-}
-
-// 残り時間を計測
-function countDown(){
-    if(timeLeft <= 0) {
-        stopTyping();
-        return;
-    }
-    messageArea.textContent = timeLeft + " sec.";
-    timeLeft--;
+    wordChars = wordTyping.split('');
 }
 
 // キー押下時の処理
